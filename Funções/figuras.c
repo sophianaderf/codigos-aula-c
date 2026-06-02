@@ -17,8 +17,10 @@ void formulaFiguras(int figura, float l1, float l2, float raio) {
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
 
-    int figura;
-    float l1, l2, raio;
+    int figura = 0;
+    float l1 = 0;
+    float l2 = 0;
+    float raio = 0;
 
     printf("Digite 1 para círculo e 2 para quadrado: ");
     scanf("%d", &figura);
