@@ -31,7 +31,7 @@ int main() {
 
     float distancia = 0;
     float consumo = 0;
-    float precoGasolina;
+    float precoGasolina = 0;
     float precoEtanol = 0;
 
     printf("Digite a distância da viagem (km): ");
