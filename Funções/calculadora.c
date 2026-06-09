@@ -26,8 +26,9 @@ void calcular(int op, float n1, float n2) {
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
 
-    int op;
-    float n1, n2;
+    int op = 0;
+    float n1 = 0;
+    float n2 = 0;
 
     printf("1 - Soma\n");
     printf("2 - Subtração\n");
